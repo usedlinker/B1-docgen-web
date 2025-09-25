@@ -1,8 +1,6 @@
 {
   "name": "docgen-web",
   "private": true,
-  "scripts": {
-    "serve": "npx serve . -l 5173"
-  },
+  "scripts": { "serve": "npx serve . -l 5173" },
   "devDependencies": {}
 }

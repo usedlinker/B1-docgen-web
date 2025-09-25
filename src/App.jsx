@@ -38,7 +38,7 @@ export default function App() {
   return (
     <div style={{ fontFamily: "system-ui, -apple-system, Segoe UI, Roboto", padding: 20, maxWidth: 720, margin: "0 auto" }}>
       <h1>📄 DocGen — 문서 자동 생성기</h1>
-      <p>템플릿을 선택하고 필드를 채운 뒤 <b>생성</b>을 누르면 .docx 파일이 다운로드됩니다.</p>
+      <p>템플릿을 선택하고 필드를 채운 뒤 <b>문서 생성</b>을 누르면 .docx 파일이 다운로드됩니다.</p>
 
       {error && <div style={{ color: "#b91c1c", marginBottom: 12 }}>⚠️ {error}</div>}
 
